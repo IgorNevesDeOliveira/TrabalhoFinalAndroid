@@ -19,6 +19,7 @@ public class FilmeDao {
 
     public Filme getById(int id) {
         Cursor cursor = null;
+        //teste
         try {
             SQLiteDatabase db = helper.getReadableDatabase();
             String colunas[] = { "titulo", "ano", "genero", "sinopse" };
